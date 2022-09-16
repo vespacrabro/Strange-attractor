@@ -1,6 +1,6 @@
 # Strange attractor page
 
-## Live version: link
+## Live version: [Link](https://strange-attractor.vercel.app/)
 
 ## Description 
 I combined my entrance to bootstrap with my favourite chapter of mathematics. I would offer this site to professor at my university as a better alternative for his page about his discoveries in the field of dynamical systems. 
