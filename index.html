@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap stylesheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <!-- Main stylesheet -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" type="image/svg" href="/img/favicon.svg">
+    <title>StrangeAttractors</title>
+</head>
+<!-- replace icon with class like arrow -->
+
+<body>
+    <!-- Header -->
+    <header class="header p-3 position-absolute start-0 top-0 end-0">
+        <div class="d-flex justify-content-between align-items-center">
+            <a href="/" class="text-decoration-none text-white fs-5 fw-bold">Strange Attractors</a>
+            <div>
+                <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false"
+                    aria-label="Toggle Navigation">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor"
+                        class="bi bi-list" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </header>
+    <!-- Header End -->
+    <!-- Flyout Navigation -->
+    <nav class="collapse navbar-collapse dropdown-nav" id="navbar">
+        <div class="dropdown-nav_container container-xxl d-flex align-items-start align-items-md-center">
+            <div class="row align-items-start items">
+                <div class=" col-12 col-sm-4">
+                    <a href="#" class="row text-decoration-none">
+                        <div class="col-2 col-sm-12 mb-4 mt-4">
+                            <img src="/img/1down.jpeg" alt="" class="img-fluid" width="553" height="746" loading="lazy">
+                        </div>
+                        <div class="col-10">
+                            <h3>Hyperbolic Attractors</h3>
+                            <p>Learn more<i class="bi bi-arrow-right-short"></i></p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-sm-4">
+                    <a href="#" class="row text-decoration-none">
+                        <div class="col-2 col-sm-12 mb-4 mt-4">
+                            <img src="/img/2down.jpeg" alt="" class="img-fluid" width="553" height="746" loading="lazy">
+                        </div>
+                        <div class="col-10">
+                            <h3>Lorenz-Type Attractors</h3>
+                            <p>Learn more<i class="bi bi-arrow-right-short"></i></p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-sm-4">
+                    <a href="#" class="row text-decoration-none">
+                        <div class="col-2 col-sm-12 mb-4 mt-4">
+                            <img src="/img/3down.jpeg" alt="" class="img-fluid" width="553" height="746" loading="lazy">
+                        </div>
+                        <div class="col-10">
+                            <h3>Quasiattractors</h3>
+                            <p>Learn more<i class="bi bi-arrow-right-short"></i></p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <button class="navbar-toggler dropdown-nav_closeNavBtn" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle Navigation">
+
+                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-x"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
+                </svg>
+            </button>
+        </div>
+    </nav>
+    <!-- Flyout Navigation End -->
+    <!-- Hero -->
+    <section class="hero">
+        <div class="hero_overlay"></div>
+        <img src="/img/hero.jpeg" alt="" class="hero_img">
+
+        <div class="hero_content h-100 container-custom position-relative">
+            <div class="d-flex h-100 align-items-center hero_content-width">
+                <div class="text-white">
+                    <h1 class="hero_heading fw-bold mb-4">Strange attractor
+                    </h1>
+                    <p class="lead mb-4">An attractor is a set of states toward which a system tends to evolve, for a
+                        wide variety of starting conditions of the system. </p>
+                    <a href="https://encyclopediaofmath.org/wiki/Strange_attractor" target="_blank"
+                        class="mt-2 btn btn-lg btn-outline-light" role="button">Learn</a>
+                </div>
+            </div>
+        </div>
+        <a href="#scroll-down" class="hero_scroll-down-btn">
+            Explore<i class="bi bi-arrow-down-short"></i>
+        </a>
+    </section>
+    <a id="scroll-down"></a>
+    <!-- Hero End -->
+    <!-- Section One  -->
+    <section class="article container-custom">
+        <div class="row">
+            <div class="col-12 col-sm-6 d-md-flex justify-content-md-center">
+                <img src="/img/1.jpeg" alt="" class="attractor_img img-fluid pb-4" width="553" height="746"
+                    loading="lazy">
+            </div>
+            <div class="col-12 col-sm-6 align-self-center justify-content-md-center">
+                <div class="article_content-width">
+                    <span>01</span>
+                    <h2 class="mb-4">Formally, a strange attractor is a fractal</h2>
+                    <p class="mb-4">A strange attractor is basically a bounded set on which nearby orbits diverge
+                        exponentially. To envision such a set, consider a flat rectangle, like a piece of chewing
+                        gum. Now fold the rectangle over, stretch it, and squash it so that it maintains its original
+                        volume. Keep doingthis. Two points which started out nearby to each other will eventually, after
+                        a sufficiently
+                        large number of folds and stretches, grow far apart. </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Section One End -->
+    <!-- Section Two -->
+    <section class="article article--background container-custom">
+        <div class="row">
+            <div class="col-12 col-sm-6 d-md-flex justify-content-md-center order-sm-1">
+                <img src="/img/2.jpeg" alt="" class="attractor_img img-fluid pb-4" width="553" height="746"
+                    loading="lazy">
+            </div>
+            <div class="col-12 col-sm-6 align-self-center justify-content-md-center">
+                <div class="article_content-width">
+                    <span>02</span>
+                    <h2 class="mb-4">Strange attractors are an image of dynamical chaos</h2>
+                    <p class="mb-4">The term strange is most often used as a name for attractors that exhibit chaotic
+                        behaviour. Strangeness is not dependent on the existence of chaos. Though attractors showing
+                        extreme
+                        sensitivity to initial conditions are indeed strange, strange attractors need not be chaotic.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Section Two End -->
+    <!-- Section Three  -->
+    <section class="article container-custom">
+        <div class="row">
+            <div class="col-12 col-sm-6 d-md-flex justify-content-md-center">
+                <img src="/img/3.jpeg" alt="" class="attractor_img img-fluid pb-4" width="553" height="746"
+                    loading="lazy">
+            </div>
+            <div class="col-12 col-sm-6 align-self-center justify-content-md-center">
+                <div class="article_content-width">
+                    <span>03</span>
+                    <h2 class="mb-4">Strange attractors are unique</h2>
+                    <p class="mb-4">In practice, most of the interesting attractors are strange in the sense that either
+                        their structure is
+                        fractal or the dynamics on them is unpredictable. The interest in strange attractors increased
+                        considerably after
+                        the discovery that the phenomenon of turbulence is indeed caused by the presence of a strange
+                        attractor.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Section Three End -->
+    <!-- 3 Column Section -->
+    <div class="dark-section">
+        <section class=" text-white py-4">
+            <div class="container-custom my-4 mx-4">
+                <div class="row">
+                    <div class="12 col-sm-4 mb-4">
+                        <img src="/img/1down.jpeg" class="mb-4 img-fluid" alt="" width="441" height="248"
+                            loading="lazy">
+                        <h3>Hyperbolic Attractors</h3>
+                        <p>Examples of these attractors include Anosov's
+                            systems, Smale-Williams' solenoid, Plykin's attractors, etc. However, the main
+                            disadvantage of hyperbolic attractors is tha t their realizations in the form of maps
+                            or differential equations, let alone applications, have so far not been found.</p>
+                    </div>
+                    <div class="12 col-sm-4 mb-4">
+                        <img src="/img/2down.jpeg" class="mb-4 img-fluid" alt="" width="441" height="248"
+                            loading="lazy">
+                        <h3>Lorenz-Type Attractors</h3>
+                        <p>A peculiarity of Lorenz-type attractors is their similarity to the hyperbolic ones;
+                            namely, their structurally stable (hyperbolic) periodic orbits and their homoclinic
+                            and heteroclinic orbits etc. are everywhere dense, and under small perturbations no
+                            stable orbits arise. Nevertheless Lorenz-type attractors are not structurally stable.</p>
+                    </div>
+                    <div class="12 col-sm-4 mb-4">
+                        <img src="/img/3down.jpeg" class="mb-4 img-fluid" alt="" width="441" height="248"
+                            loading="lazy">
+                        <h3>Quasiattractors</h3>
+                        <p>These attractors have not been sufficiently studied, particularly in the case of hyper chaos.
+                            One of the main reasons
+                            for the complexity of quasiattractors is the existence of a structurally unstable
+                            homoclinic orbit of either the system (4), or of a system "close" to it.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- 3 Column Section End-->
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
