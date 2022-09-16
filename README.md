@@ -7,12 +7,14 @@ I combined my entrance to bootstrap with my favourite chapter of mathematics. I 
 
 
 ## Built with
-HTML5;
+HTML5
+
 CSS:
 - Declared global variables using :root CSS pseudo-class;
 - Responsive design with media query;
-- Animations;
-Bootstrap 5;
+- Animations
+
+Bootstrap 5
 
 
 ## Features
